@@ -1,25 +1,32 @@
 # CS 499 Computer Science Capstone ePortfolio
 
-## Fatima Mubasher
+This repository contains my final **CS 499 Computer Science Capstone ePortfolio** for Southern New Hampshire University.
 
-This repository contains my final ePortfolio for **CS 499: Computer Science Capstone** at Southern New Hampshire University.
+The portfolio documents the evolution of a single CS 340 client-server application across three core areas of computer science:
 
-The portfolio represents the culmination of my undergraduate computer science work and, more specifically, the evolution of how I approach software development. Rather than treating programming as simply making code work, the capstone challenged me to revisit an existing system and evaluate it through software architecture, algorithms, data management, testing, security, and maintainability.
+- Software Design and Engineering
+- Algorithms and Data Structures
+- Databases
 
-### View the ePortfolio
+Rather than presenting three unrelated assignments, I used the same underlying system throughout the capstone so the portfolio demonstrates cumulative technical growth across architecture, algorithmic reasoning, data management, testing, validation, maintainability, and security.
 
-**Live Portfolio:**  
-https://fatimamubasherr.github.io/cs499-capstone-portfolio/
+## Live ePortfolio
 
----
+The completed GitHub Pages portfolio is available at:
 
-## Capstone Overview
+**https://fatimamubasherr.github.io/**
 
-For my capstone, I returned to a client-server application originally developed in **CS 340: Client/Server Development**.
+## Portfolio Focus
 
-Instead of using three unrelated projects, I used the same underlying artifact across all three enhancement categories. This allowed the portfolio to demonstrate a cumulative transformation of one system.
+My capstone reflects my broader interest in the intersection of:
 
-The progression is:
+**Computer Science · Intelligent Systems · Software Engineering**
+
+The project emphasizes not only whether a system functions, but whether it is structured, maintainable, explainable, secure, and useful to the people who depend on it.
+
+## Capstone Progression
+
+The portfolio follows one system through three stages of enhancement:
 
 **Original CS 340 Application**  
 ↓  
@@ -29,105 +36,64 @@ The progression is:
 ↓  
 **Database Enhancement**
 
-Each stage builds on the previous work and reflects a different dimension of my growth as a computer science student.
+### Enhancement 1 — Software Design & Engineering
 
----
+The first enhancement focused on improving the architecture and maintainability of the original application.
 
-## Enhancement One: Software Design & Engineering
+Key areas included:
 
-The first enhancement focused on improving the structure and maintainability of the original application.
+- separation of responsibilities
+- repository and service layers
+- configuration management
+- validation
+- logging
+- testing
+- maintainability
 
-The system was reorganized to create clearer separation between responsibilities, including application logic, repository access, services, configuration, validation, logging, and testing.
+### Enhancement 2 — Algorithms & Data Structures
 
-This enhancement demonstrates skills involving:
+The second enhancement focused on making information retrieval more purposeful and intelligent.
 
-- Software architecture
-- Separation of concerns
-- Modular design
-- Input validation
-- Configuration management
-- Logging
-- Testing
-- Maintainability
-- Defensive programming
+Key areas included:
 
-The goal was not simply to add functionality, but to make the existing system easier to understand, test, maintain, and extend.
+- structured search criteria
+- scoring
+- ranking
+- sorting
+- pagination
+- algorithmic trade-offs
 
----
+### Enhancement 3 — Databases
 
-## Enhancement Two: Algorithms & Data Structures
+The final enhancement strengthened the application's interaction with MongoDB and the overall data layer.
 
-The second enhancement focused on how the application searches, organizes, and prioritizes information.
+Key areas included:
 
-I introduced structured search criteria along with scoring, ranking, sorting, and pagination behavior. This allowed search results to become more purposeful rather than simply returning every record that matched a database query.
-
-This enhancement demonstrates:
-
-- Algorithm design
-- Search and filtering
-- Ranking and scoring
-- Sorting
-- Pagination
-- Data structures
-- Complexity analysis
-- Algorithmic trade-offs
-- Decision-support design
-
-An important part of this enhancement was evaluating whether additional optimization was actually justified. The project reinforced that a more complicated algorithm is not automatically a better engineering solution.
-
----
-
-## Enhancement Three: Databases
-
-The final enhancement strengthened the application's MongoDB data layer.
-
-The work included improvements involving validation, indexing, aggregation, query behavior, and database interaction. These changes were designed to improve reliability while also considering performance and security.
-
-This enhancement demonstrates:
-
-- MongoDB
-- PyMongo
-- Schema validation
-- Indexing
-- Aggregation pipelines
-- Query design
-- Database testing
-- Data integrity
-- Secure configuration
-- Defensive database programming
-
-The database enhancement also builds on the earlier architectural and algorithmic work, making the final artifact a cumulative version of the system.
-
----
-
-## Original Artifact
-
-The baseline application used for these enhancements was developed in CS 340.
-
-The original version is preserved separately so that the changes made during the capstone can be evaluated against the system that existed before the enhancements.
-
-**Original CS 340 Repository:**  
-https://github.com/fatimamubasherr/cs340_client_server_development
-
----
+- validation
+- database indexing
+- aggregation
+- safer query behavior
+- data integrity
+- defensive database operations
 
 ## CS 499 Program Outcomes
 
-The complete ePortfolio is designed to demonstrate the five Computer Science program outcomes:
+The completed portfolio demonstrates the five Computer Science program outcomes:
 
-1. Build collaborative environments that support organizational decision making for diverse audiences.
+1. **Collaboration and decision support**  
+   Technical decisions are documented so developers, managers, and stakeholders can understand and evaluate them.
 
-2. Develop professional-quality oral, written, and visual communication appropriate to different audiences and contexts.
+2. **Professional communication**  
+   Technical work is communicated through source code, written narratives, documentation, visual portfolio design, and a code review.
 
-3. Design and evaluate computing solutions using algorithmic principles and computer science practices while considering design trade-offs.
+3. **Algorithms and computing solutions**  
+   The project demonstrates algorithmic reasoning through search, scoring, ranking, sorting, pagination, and evaluation of design trade-offs.
 
-4. Apply well-founded and innovative computing techniques, skills, and tools to create solutions that deliver value and support industry-specific goals.
+4. **Engineering practices and technical value**  
+   The enhanced system demonstrates stronger architecture, testing, maintainability, reusable components, and industry-aligned development practices.
 
-5. Develop a security mindset that anticipates vulnerabilities, mitigates design flaws, and protects data and computing resources.
-
-Evidence for these outcomes is distributed across the artifact enhancements, enhancement narratives, professional self-assessment, code review, testing, documentation, and portfolio presentation.
-
----
+5. **Security mindset**  
+   Validation, defensive programming, safer configuration practices, controlled database operations, and data protections reduce avoidable system risk.
 
 ## Repository Structure
 
@@ -135,18 +101,16 @@ Evidence for these outcomes is distributed across the artifact enhancements, enh
 cs499-capstone-portfolio/
 │
 ├── index.html
-├── styles.css
+├── styles-v2.css
 ├── README.md
 │
 ├── artifacts/
-│   ├── Software Design & Engineering enhancement
-│   ├── Algorithms & Data Structures enhancement
-│   └── Database enhancement
+│   ├── CS499_Milestone_Two_Artifact 3.zip
+│   ├── CS499_Milestone_Three_Artifact-2.zip
+│   └── CS499_Milestone_Four_Artifact_Fatima_Mubasher.zip
 │
-├── documents/
-│   ├── Professional Self-Assessment
-│   ├── Software Design & Engineering Narrative
-│   ├── Algorithms & Data Structures Narrative
-│   └── Database Narrative
-│
-└── images/
+└── documents/
+    ├── CS499_Professional_Self_Assessment_Fatima_Mubasher_FINAL.docx
+    ├── CS499_Milestone_Two_Narrative_Fatima_Mubasher.docx
+    ├── CS499_Milestone_Three_Narrative_Fatima_Mubasher.docx
+    └── CS499_Milestone_Four_Narrative_Fatima_Mubasher.docx
