@@ -3,234 +3,877 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Fatima Mubasher's CS 499 Computer Science Capstone ePortfolio." />
+  <meta
+    name="description"
+    content="Fatima Mubasher's CS 499 Computer Science Capstone ePortfolio."
+  />
+
   <title>Fatima Mubasher | CS 499 ePortfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+
+  <!-- =========================================================
+       NAVIGATION
+       ========================================================= -->
 
   <header class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="#top">FM</a>
+
+      <a class="brand" href="#top" aria-label="Return to top">
+        FM
+      </a>
+
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#about">About</a>
+        <a href="#self-assessment">About</a>
         <a href="#outcomes">Outcomes</a>
         <a href="#artifacts">Artifacts</a>
         <a href="#review">Code Review</a>
         <a href="#documents">Documents</a>
       </nav>
+
     </div>
   </header>
 
+
   <main id="top">
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
     <section class="hero">
+
       <div class="hero-content">
-        <p class="eyebrow">CS 499 · Computer Science Capstone</p>
-        <h1>Fatima Mubasher</h1>
-        <p class="hero-subtitle">Computer Science · Intelligent Systems · Software Engineering</p>
-        <p class="hero-copy">
-          I build systems by asking not only whether they work, but whether they are structured,
-          explainable, secure, and useful to the people who depend on them. This portfolio documents
-          the evolution of one software system across architecture, algorithms, and data.
+
+        <p class="eyebrow">
+          CS 499 · Computer Science Capstone
         </p>
+
+        <h1>
+          Fatima Mubasher
+        </h1>
+
+        <p class="hero-subtitle">
+          Computer Science · Intelligent Systems · Software Engineering
+        </p>
+
+        <p class="hero-copy">
+          I build systems by asking not only whether they work, but whether
+          they are structured, explainable, secure, and useful to the people
+          who depend on them. This portfolio documents the evolution of one
+          software system across architecture, algorithms, and data.
+        </p>
+
         <div class="hero-actions">
-          <a class="btn primary" href="#artifacts">Explore the portfolio</a>
-          <a class="btn secondary" href="documents/CS499_Professional_Self_Assessment_Fatima_Mubasher.docx">Professional self-assessment</a>
+
+          <a
+            class="btn primary"
+            href="#self-assessment"
+          >
+            Begin with my self-assessment
+          </a>
+
+          <a
+            class="btn secondary"
+            href="#artifacts"
+          >
+            Explore the artifacts
+          </a>
+
         </div>
+
       </div>
+
+
       <div class="hero-card">
+
         <div class="metric">
-          <span class="metric-label">Core enhancement areas</span>
+          <span class="metric-label">
+            Core enhancement areas
+          </span>
           <strong>03</strong>
         </div>
+
         <div class="metric">
-          <span class="metric-label">Program outcomes addressed</span>
+          <span class="metric-label">
+            Program outcomes addressed
+          </span>
           <strong>05</strong>
         </div>
+
         <div class="metric">
-          <span class="metric-label">Capstone focus</span>
-          <strong class="metric-small">Growth through iteration</strong>
+          <span class="metric-label">
+            Capstone focus
+          </span>
+          <strong class="metric-small">
+            Growth through iteration
+          </strong>
         </div>
+
       </div>
+
     </section>
 
-    <section id="about" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Professional Self-Assessment</p>
-        <h2>How I think about computer science now</h2>
-      </div>
-      <div class="two-col">
-        <div>
-          <p>
-            My coursework moved me from thinking about software as isolated code toward thinking about
-            complete systems: users, requirements, algorithms, data, security, testing, communication,
-            and long-term maintainability. The capstone made that progression visible by requiring me
-            to revisit earlier work and improve it with more deliberate engineering choices.
-          </p>
-          <p>
-            Across the program, I learned that strong technical work is rarely just about producing a
-            correct answer. It also requires communicating decisions clearly, evaluating trade-offs,
-            anticipating failure, and building systems that other people can understand and extend.
-          </p>
-        </div>
-        <div class="quote-card">
-          <p>“The strongest version of a system is not simply the one that runs. It is the one whose decisions, structure, and limitations can be understood.”</p>
-        </div>
-      </div>
-    </section>
 
-    <section id="outcomes" class="section alt">
-      <div class="section-heading">
-        <p class="eyebrow">Program Outcomes</p>
-        <h2>What the portfolio demonstrates</h2>
-      </div>
-      <div class="outcome-grid">
-        <article class="outcome-card">
-          <span>01</span>
-          <h3>Collaboration & decision support</h3>
-          <p>Design choices are documented so peers, managers, and stakeholders can review and act on them.</p>
-        </article>
-        <article class="outcome-card">
-          <span>02</span>
-          <h3>Professional communication</h3>
-          <p>Technical ideas are presented through code, written narratives, visual structure, and a code review.</p>
-        </article>
-        <article class="outcome-card">
-          <span>03</span>
-          <h3>Algorithms & trade-offs</h3>
-          <p>Search, ranking, sorting, and pagination are used to make data retrieval more purposeful and transparent.</p>
-        </article>
-        <article class="outcome-card">
-          <span>04</span>
-          <h3>Engineering value</h3>
-          <p>The application evolves toward cleaner separation of concerns, testing, maintainability, and reusable components.</p>
-        </article>
-        <article class="outcome-card">
-          <span>05</span>
-          <h3>Security mindset</h3>
-          <p>Input validation, configuration practices, bounded operations, and database protections reduce avoidable risk.</p>
-        </article>
-      </div>
-    </section>
 
-    <section id="artifacts" class="section">
+    <!-- =========================================================
+         PROFESSIONAL SELF-ASSESSMENT
+         First substantive portfolio component, as required.
+         ========================================================= -->
+
+    <section id="self-assessment" class="section">
+
       <div class="section-heading">
-        <p class="eyebrow">Artifact Enhancements</p>
-        <h2>One system, three layers of growth</h2>
-        <p class="section-intro">
-          I used the same underlying CS 340 artifact across all three enhancement categories so the portfolio
-          shows a cumulative transformation rather than three disconnected exercises.
+
+        <p class="eyebrow">
+          Professional Self-Assessment
         </p>
+
+        <h2>
+          How I think about computer science now
+        </h2>
+
+        <p class="section-intro">
+          My computer science education changed the way I define a successful
+          system. I entered the program thinking primarily about whether code
+          could solve a problem. I leave it thinking much more broadly about
+          architecture, people, data, trade-offs, security, maintainability,
+          communication, and the decisions that exist behind every technical
+          solution.
+        </p>
+
       </div>
 
-      <div class="artifact-grid">
-        <article class="artifact-card">
-          <div class="artifact-top">
-            <span class="artifact-number">01</span>
-            <span class="tag">Software Design & Engineering</span>
-          </div>
-          <h3>Restructuring the application</h3>
-          <p>
-            The first enhancement focused on architecture and maintainability. Responsibilities were separated
-            into clearer application, repository, service, configuration, validation, logging, and testing layers.
-          </p>
-          <div class="artifact-links">
-            <a href="artifacts/CS499_Milestone_Two_Artifact 3.zip">Download artifact</a>
-            <a href="documents/CS499_Milestone_Two_Narrative_Fatima_Mubasher.docx">Read narrative</a>
-          </div>
-        </article>
 
-        <article class="artifact-card featured">
-          <div class="artifact-top">
-            <span class="artifact-number">02</span>
-            <span class="tag">Algorithms & Data Structures</span>
-          </div>
-          <h3>Making retrieval more intelligent</h3>
-          <p>
-            The second enhancement introduced structured search criteria, scoring and ranking logic,
-            sorting, and pagination so results could be prioritized rather than merely returned.
-          </p>
-          <div class="artifact-links">
-            <a href="artifacts/CS499_Milestone_Three_Artifact-2.zip">Download artifact</a>
-            <a href="documents/CS499_Milestone_Three_Narrative_Fatima_Mubasher.docx">Read narrative</a>
-          </div>
-        </article>
+      <div class="two-col">
 
-        <article class="artifact-card">
-          <div class="artifact-top">
-            <span class="artifact-number">03</span>
-            <span class="tag">Databases</span>
-          </div>
-          <h3>Strengthening the data layer</h3>
+        <div>
+
+          <h3>
+            From writing code to designing systems
+          </h3>
+
           <p>
-            The final enhancement extended the database design with validation, indexing, aggregation,
-            safer query behavior, and stronger interaction between the application and MongoDB.
+            Throughout the Computer Science program, I gradually moved from
+            treating software as a collection of individual programming tasks
+            toward understanding it as a complete system. A solution can be
+            technically correct and still be difficult to maintain, difficult
+            to explain, insecure, inefficient, or poorly aligned with the needs
+            of the people using it. My coursework taught me to think about all
+            of those dimensions together.
           </p>
-          <div class="artifact-links">
-            <a href="artifacts/CS499_Milestone_Four_Artifact_Fatima_Mubasher.zip">Download artifact</a>
-            <a href="documents/CS499_Milestone_Four_Narrative_Fatima_Mubasher.docx">Read narrative</a>
-          </div>
-        </article>
+
+          <p>
+            Courses involving software engineering, testing, algorithms,
+            application development, databases, graphics, mobile development,
+            and computer science theory gave me different ways of approaching
+            the same fundamental question: how do I create a computing solution
+            that is useful beyond the moment in which it is written?
+          </p>
+
+          <p>
+            The capstone brought those ideas together. Instead of creating
+            another isolated project, I returned to an earlier CS 340
+            client-server application and treated it as a system that could
+            evolve. I evaluated its original design, identified weaknesses,
+            made architectural improvements, introduced more purposeful
+            algorithmic behavior, and strengthened its database layer.
+            Revisiting the same system repeatedly made my growth much more
+            visible than simply starting over with new code.
+          </p>
+
+        </div>
+
+
+        <div class="quote-card">
+
+          <p>
+            “The strongest version of a system is not simply the one that runs.
+            It is the one whose decisions, structure, limitations, and value
+            can be understood.”
+          </p>
+
+        </div>
+
       </div>
+
+
+
+      <div class="two-col">
+
+        <div>
+
+          <h3>
+            Collaboration, communication, and stakeholders
+          </h3>
+
+          <p>
+            One of the most important changes in my thinking has been realizing
+            that computer science is not practiced in isolation. Even when I am
+            responsible for the implementation, the decisions surrounding that
+            implementation affect other developers, users, managers, clients,
+            and future maintainers.
+          </p>
+
+          <p>
+            Code reviews, documentation, written narratives, testing, and clear
+            organization all contribute to collaboration because they make
+            technical decisions understandable to people other than the
+            original developer. Through the program, I learned to explain not
+            only what I built but why I selected a particular design, what
+            trade-offs were involved, and what consequences those decisions
+            could create.
+          </p>
+
+          <p>
+            This portfolio reflects that approach. The technical artifacts show
+            the implementation itself, while the narratives explain the
+            reasoning behind the enhancements. Together they create a record
+            that can be evaluated by both technical and nontechnical
+            stakeholders.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            Algorithms, software engineering, and data
+          </h3>
+
+          <p>
+            My work with algorithms and data structures strengthened my ability
+            to think about efficiency and purpose rather than simply
+            functionality. In the algorithms enhancement represented here,
+            search criteria, scoring, ranking, sorting, and pagination were
+            introduced so retrieved data could be prioritized rather than
+            merely returned.
+          </p>
+
+          <p>
+            Software engineering taught me to think similarly about structure.
+            Separating responsibilities into clearer application, repository,
+            service, configuration, validation, logging, and testing layers
+            improves maintainability and creates a system that is easier to
+            understand and extend.
+          </p>
+
+          <p>
+            Database work added another dimension. Data has to be stored,
+            retrieved, validated, protected, and queried intentionally. The
+            database enhancement therefore strengthened validation, indexing,
+            aggregation, query behavior, and interaction between the
+            application and MongoDB.
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="two-col">
+
+        <div>
+
+          <h3>
+            Building with a security mindset
+          </h3>
+
+          <p>
+            Security is also something I now see as an engineering habit rather
+            than a feature that can simply be added at the end. Inputs,
+            configuration information, database operations, permissions, error
+            handling, and system boundaries can all introduce risk.
+          </p>
+
+          <p>
+            Developing a security mindset means asking what could fail, what
+            could be misused, which assumptions are unsafe, and how sensitive
+            information or resources can be protected before a problem occurs.
+            Validation, bounded operations, safer configuration practices, and
+            defensive database behavior became part of the way I evaluated the
+            capstone rather than separate concerns.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            Where I am going next
+          </h3>
+
+          <p>
+            The area of computer science that interests me most is the
+            intersection of intelligent systems, software architecture, and
+            real-world decision support. I am especially interested in systems
+            that move beyond producing outputs and instead help people
+            understand information, recognize patterns, and make better
+            decisions.
+          </p>
+
+          <p>
+            My goal is to continue developing toward work involving intelligent
+            and cognitive systems while maintaining the engineering foundation
+            demonstrated throughout this portfolio: clear architecture,
+            thoughtful algorithms, reliable data, explainability, security,
+            and human-centered usefulness.
+          </p>
+
+          <p>
+            Completing the capstone has therefore been less about reaching an
+            endpoint and more about learning how to revisit a system
+            critically. The ability to examine what already exists, identify
+            what can be improved, justify those decisions, and iterate
+            deliberately is one of the skills I expect to carry forward most
+            strongly into my professional work.
+          </p>
+
+        </div>
+
+      </div>
+
 
       <div class="original-banner">
+
         <div>
-          <p class="eyebrow">Before the enhancements</p>
-          <h3>Original CS 340 artifact</h3>
-          <p>The original repository provides the baseline used to evaluate the capstone improvements.</p>
+
+          <p class="eyebrow">
+            Complete Written Version
+          </p>
+
+          <h3>
+            Professional Self-Assessment
+          </h3>
+
+          <p>
+            The full Word document submitted with the CS 499 final project is
+            available here as supporting documentation.
+          </p>
+
         </div>
-        <a class="btn secondary" href="https://github.com/fatimamubasherr/cs340_client_server_development" target="_blank" rel="noopener">View original repository ↗</a>
+
+        <a
+          class="btn secondary"
+          href="documents/CS499_Professional_Self_Assessment_Fatima_Mubasher.docx"
+        >
+          Download self-assessment ↗
+        </a>
+
       </div>
+
     </section>
+
+
+
+    <!-- =========================================================
+         PROGRAM OUTCOMES
+         ========================================================= -->
+
+    <section id="outcomes" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          Program Outcomes
+        </p>
+
+        <h2>
+          What the portfolio demonstrates
+        </h2>
+
+        <p class="section-intro">
+          The enhancements, narratives, code review, and professional
+          self-assessment work together to demonstrate all five CS 499
+          program outcomes.
+        </p>
+
+      </div>
+
+
+      <div class="outcome-grid">
+
+        <article class="outcome-card">
+
+          <span>01</span>
+
+          <h3>
+            Collaboration &amp; decision support
+          </h3>
+
+          <p>
+            Design choices are documented so peers, managers, and stakeholders
+            can review technical reasoning and use it to support informed
+            decisions.
+          </p>
+
+        </article>
+
+
+        <article class="outcome-card">
+
+          <span>02</span>
+
+          <h3>
+            Professional communication
+          </h3>
+
+          <p>
+            Technical ideas are communicated through source code, written
+            narratives, visual portfolio design, documentation, and an
+            explanatory code review.
+          </p>
+
+        </article>
+
+
+        <article class="outcome-card">
+
+          <span>03</span>
+
+          <h3>
+            Algorithms &amp; trade-offs
+          </h3>
+
+          <p>
+            Search, scoring, ranking, sorting, and pagination make information
+            retrieval more purposeful while demonstrating consideration of
+            algorithmic design choices.
+          </p>
+
+        </article>
+
+
+        <article class="outcome-card">
+
+          <span>04</span>
+
+          <h3>
+            Engineering value
+          </h3>
+
+          <p>
+            The application evolves toward clearer separation of concerns,
+            stronger testing, improved maintainability, reusable components,
+            and more deliberate engineering practices.
+          </p>
+
+        </article>
+
+
+        <article class="outcome-card">
+
+          <span>05</span>
+
+          <h3>
+            Security mindset
+          </h3>
+
+          <p>
+            Input validation, safer configuration practices, bounded
+            operations, defensive query behavior, and database protections
+            reduce avoidable risk.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         ARTIFACT ENHANCEMENTS
+         ========================================================= -->
+
+    <section id="artifacts" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          Artifact Enhancements
+        </p>
+
+        <h2>
+          One system, three layers of growth
+        </h2>
+
+        <p class="section-intro">
+          I used the same underlying CS 340 artifact across all three
+          enhancement categories so the portfolio shows a cumulative
+          transformation rather than three disconnected exercises.
+        </p>
+
+      </div>
+
+
+      <div class="artifact-grid">
+
+        <!-- SOFTWARE DESIGN & ENGINEERING -->
+
+        <article class="artifact-card">
+
+          <div class="artifact-top">
+
+            <span class="artifact-number">
+              01
+            </span>
+
+            <span class="tag">
+              Software Design &amp; Engineering
+            </span>
+
+          </div>
+
+
+          <h3>
+            Restructuring the application
+          </h3>
+
+          <p>
+            The first enhancement focused on architecture and maintainability.
+            Responsibilities were separated into clearer application,
+            repository, service, configuration, validation, logging, and
+            testing layers.
+          </p>
+
+
+          <div class="artifact-links">
+
+            <a
+              href="artifacts/CS499_Milestone_Two_Artifact%203.zip"
+            >
+              Download artifact
+            </a>
+
+            <a
+              href="documents/CS499_Milestone_Two_Narrative_Fatima_Mubasher.docx"
+            >
+              Read narrative
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- ALGORITHMS & DATA STRUCTURES -->
+
+        <article class="artifact-card featured">
+
+          <div class="artifact-top">
+
+            <span class="artifact-number">
+              02
+            </span>
+
+            <span class="tag">
+              Algorithms &amp; Data Structures
+            </span>
+
+          </div>
+
+
+          <h3>
+            Making retrieval more intelligent
+          </h3>
+
+          <p>
+            The second enhancement introduced structured search criteria,
+            scoring and ranking logic, sorting, and pagination so results
+            could be prioritized rather than merely returned.
+          </p>
+
+
+          <div class="artifact-links">
+
+            <a
+              href="artifacts/CS499_Milestone_Three_Artifact-2.zip"
+            >
+              Download artifact
+            </a>
+
+            <a
+              href="documents/CS499_Milestone_Three_Narrative_Fatima_Mubasher.docx"
+            >
+              Read narrative
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- DATABASES -->
+
+        <article class="artifact-card">
+
+          <div class="artifact-top">
+
+            <span class="artifact-number">
+              03
+            </span>
+
+            <span class="tag">
+              Databases
+            </span>
+
+          </div>
+
+
+          <h3>
+            Strengthening the data layer
+          </h3>
+
+          <p>
+            The final enhancement extended the database design with
+            validation, indexing, aggregation, safer query behavior, and
+            stronger interaction between the application and MongoDB.
+          </p>
+
+
+          <div class="artifact-links">
+
+            <a
+              href="artifacts/CS499_Milestone_Four_Artifact_Fatima_Mubasher.zip"
+            >
+              Download artifact
+            </a>
+
+            <a
+              href="documents/CS499_Milestone_Four_Narrative_Fatima_Mubasher.docx"
+            >
+              Read narrative
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+
+      <!-- ORIGINAL ARTIFACT -->
+
+      <div class="original-banner">
+
+        <div>
+
+          <p class="eyebrow">
+            Before the enhancements
+          </p>
+
+          <h3>
+            Original CS 340 artifact
+          </h3>
+
+          <p>
+            The original repository provides the baseline used to evaluate
+            the architectural, algorithmic, and database improvements
+            completed during the capstone.
+          </p>
+
+        </div>
+
+
+        <a
+          class="btn secondary"
+          href="https://github.com/fatimamubasherr/cs340_client_server_development"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View original repository ↗
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         CODE REVIEW
+         ========================================================= -->
 
     <section id="review" class="section alt">
+
       <div class="section-heading">
-        <p class="eyebrow">Informal Code Review</p>
-        <h2>From critique to enhancement plan</h2>
+
+        <p class="eyebrow">
+          Informal Code Review
+        </p>
+
+        <h2>
+          From critique to enhancement plan
+        </h2>
+
       </div>
+
+
       <div class="review-panel">
+
         <div>
+
           <p>
-            The code review examines the original artifact, identifies opportunities involving structure,
-            efficiency, maintainability, testing, documentation, and security, and explains how the planned
-            enhancements map to the five CS 499 course outcomes.
+            The code review examines the original CS 340 artifact before the
+            capstone enhancements. It evaluates the application's existing
+            functionality and identifies opportunities involving structure,
+            efficiency, maintainability, testing, documentation, defensive
+            programming, and security.
           </p>
+
+          <p>
+            The review also explains the planned progression from the original
+            implementation through the software design and engineering,
+            algorithms and data structures, and database enhancements, while
+            connecting those improvements to the five CS 499 course outcomes.
+          </p>
+
           <p class="note">
-            Replace the button link below with your actual YouTube / video URL before final submission.
+            The recorded walkthrough will be linked here as part of the final
+            CS 499 submission.
           </p>
+
         </div>
-        <a class="btn primary" href="CODE_REVIEW_LINK_HERE" target="_blank" rel="noopener">Watch code review ↗</a>
+
+
+        <!--
+          After recording the code review:
+          Replace CODE_REVIEW_LINK_HERE below with the final video URL.
+        -->
+
+        <a
+          class="btn primary"
+          href="CODE_REVIEW_LINK_HERE"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Watch code review ↗
+        </a>
+
       </div>
+
     </section>
+
+
+
+    <!-- =========================================================
+         SUPPORTING DOCUMENTS
+         ========================================================= -->
 
     <section id="documents" class="section">
+
       <div class="section-heading">
-        <p class="eyebrow">Written Work</p>
-        <h2>Supporting documents</h2>
+
+        <p class="eyebrow">
+          Written Work
+        </p>
+
+        <h2>
+          Supporting documents
+        </h2>
+
+        <p class="section-intro">
+          These documents provide the complete written narratives and
+          professional self-assessment submitted alongside the ePortfolio.
+        </p>
+
       </div>
+
+
       <div class="doc-list">
-        <a href="documents/CS499_Professional_Self_Assessment_Fatima_Mubasher.docx">
-          <span>Professional Self-Assessment</span><span>DOCX ↗</span>
+
+        <a
+          href="documents/CS499_Professional_Self_Assessment_Fatima_Mubasher.docx"
+        >
+          <span>
+            Professional Self-Assessment
+          </span>
+
+          <span>
+            DOCX ↗
+          </span>
         </a>
-        <a href="documents/CS499_Milestone_Two_Narrative_Fatima_Mubasher.docx">
-          <span>Software Design & Engineering Narrative</span><span>DOCX ↗</span>
+
+
+        <a
+          href="documents/CS499_Milestone_Two_Narrative_Fatima_Mubasher.docx"
+        >
+          <span>
+            Software Design &amp; Engineering Narrative
+          </span>
+
+          <span>
+            DOCX ↗
+          </span>
         </a>
-        <a href="documents/CS499_Milestone_Three_Narrative_Fatima_Mubasher.docx">
-          <span>Algorithms & Data Structures Narrative</span><span>DOCX ↗</span>
+
+
+        <a
+          href="documents/CS499_Milestone_Three_Narrative_Fatima_Mubasher.docx"
+        >
+          <span>
+            Algorithms &amp; Data Structures Narrative
+          </span>
+
+          <span>
+            DOCX ↗
+          </span>
         </a>
-        <a href="documents/CS499_Milestone_Four_Narrative_Fatima_Mubasher.docx">
-          <span>Database Narrative</span><span>DOCX ↗</span>
+
+
+        <a
+          href="documents/CS499_Milestone_Four_Narrative_Fatima_Mubasher.docx"
+        >
+          <span>
+            Database Narrative
+          </span>
+
+          <span>
+            DOCX ↗
+          </span>
         </a>
+
       </div>
+
     </section>
+
   </main>
 
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
   <footer>
-    <p>Fatima Mubasher · CS 499 Computer Science Capstone</p>
-    <p>Built as a professional ePortfolio using GitHub Pages.</p>
+
+    <p>
+      Fatima Mubasher · CS 499 Computer Science Capstone
+    </p>
+
+    <p>
+      Built as a professional ePortfolio using GitHub Pages.
+    </p>
+
   </footer>
 
 </body>
